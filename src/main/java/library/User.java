@@ -1,5 +1,7 @@
 package library;
 
+import java.time.LocalDate;
+
 public class User {
     private String firstName;
     private String lastName;
@@ -18,5 +20,17 @@ public class User {
 
     public String getPESEL() {
         return PESEL;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public LocalDate getDateOfBirth() {
+        return dateOfBirth;
     }
 }

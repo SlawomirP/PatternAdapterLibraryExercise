@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91ff702c-b555-4f91-9126-a1fb8783f3f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library/BookConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library/LibraryAPI.java" afterDir="false" />
+    <list default="true" id="91ff702c-b555-4f91-9126-a1fb8783f3f0" name="Changes" comment="beginning">
+      <change afterPath="$PROJECT_DIR$/src/main/java/library/APIAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/library/LibraryAPIImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/library/LibraryAPIv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/library/LibraryAPIv2Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/library/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,6 +44,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="library.Main" />
+      <module name="PatternAdapterLibraryExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +73,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662212429700</updated>
     </task>
+    <task id="LOCAL-00001" summary="beginning">
+      <created>1662213635668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662213635668</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="beginning" />
+    <option name="LAST_COMMIT_MESSAGE" value="beginning" />
   </component>
 </project>
